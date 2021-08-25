@@ -8,6 +8,3 @@ def random_id(length=8):
     for i in range(length):
         buffer += random_choice(SEED)
     return buffer
-
-
-print(random_id())
